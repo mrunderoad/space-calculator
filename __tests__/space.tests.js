@@ -1,5 +1,5 @@
 
-import { earthToMercury, earthToVenus, earthToMars, earthToJupiter  } from './../src/js/space.js';
+import { earthToMercury, earthToVenus, earthToMars, earthToJupiter, lifeLeftMercury  } from './../src/js/space.js';
 
 test('Should correctly determine the length of one mercury year', () => {
   let oneMercuryYear = 4.15;
@@ -36,5 +36,12 @@ test('Should convert earth age to Mars age', () => {
 });
 
 test('Should convert earth age to Jupiter age', () => {
+  let jupiterAge = .0084;
+  let earthAge = {};
   earthAge / jupiterAge;
 });
+
+test('Should tell user their life left on planet and on earth', () => {
+  earthToMercury(years) - earthToMercury(lifeExpectancy);
+})
+ 

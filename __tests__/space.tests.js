@@ -14,6 +14,10 @@ test('Should correctly determine the length of one Mars year', () => {
 });
 
 test('Should correctly determine the length of one Jupiter year', () => {
-  this.jupiterYear = .0084;
   let oneJupiterYear = .0084;
+})
+
+test('Should return user age in Mercury years', () => {
+  let age = inputAge;
+  return age / .24;
 })

@@ -20,9 +20,11 @@ test('Should correctly determine the length of one Jupiter year', () => {
 test('Should convert earth age to mercury age', () => {
   let mercuryAge = 4.16;
   let earthAge = {};
-  earthAge / 4.16
+  earthAge / mercuryAge;
 });
 
 test('Should convert earth age to Venus age', () => {
-  earthAge / .62
+  let venusAge = 1.61;
+  let earthAge = {};
+  earthAge / venusAge;
 });

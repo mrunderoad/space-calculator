@@ -15,9 +15,10 @@ test('Should correctly determine the length of one Mars year', () => {
 
 test('Should correctly determine the length of one Jupiter year', () => {
   let oneJupiterYear = .0084;
-})
+});
 
-test('Should return user age in Mercury years', () => {
-  let age = inputAge;
-  return age / .24;
-})
+test('Should convert earth age to mercury age', () => {
+  let mercuryAge = 4.16;
+  let earthAge = {};
+  earthAge / 4.16
+});

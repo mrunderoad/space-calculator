@@ -22,3 +22,7 @@ test('Should convert earth age to mercury age', () => {
   let earthAge = {};
   earthAge / 4.16
 });
+
+test('Should convert earth age to Venus age', () => {
+  earthAge / .62
+});

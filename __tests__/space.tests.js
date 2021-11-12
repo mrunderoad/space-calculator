@@ -34,3 +34,7 @@ test('Should convert earth age to Mars age', () => {
   let earthAge = {};
   earthAge / marsAge;
 });
+
+test('Should convert earth age to Jupiter age', () => {
+  earthAge / jupiterAge;
+});

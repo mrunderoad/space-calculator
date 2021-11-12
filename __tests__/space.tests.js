@@ -42,6 +42,7 @@ test('Should convert earth age to Jupiter age', () => {
 });
 
 test('Should tell user their life left on planet and on earth', () => {
-  earthToMercury(years) - earthToMercury(lifeExpectancy);
-})
- 
+  let year = {};
+  let lifeExpectancy = {};
+  year - lifeExpectancy;
+});

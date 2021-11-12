@@ -4,33 +4,35 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import __ from '/.space.js';
 import './css/styles.css';
 
-function earthToMercury(age) {
-  return age / .24; {
+function earthToMercury(years) {
+  return years / .24; {
   }
 }
 
-function earthToVenus(age) {
-  return age / .62; { 
+function earthToVenus(years) {
+  return years / .62; { 
   }
 }
 
-function earthToMars(age) {
-  return age / 1.88; {
+function earthToMars(years) {
+  return years / 1.88; {
   }  
 }
 
-function earthToJupiter(age) {
-  return age / .0084; {    
+function earthToJupiter(years) {
+  return years / .0084; {    
   }
 }
 
+function lifeLeftMercury() {
+  return lifeExpectancy - earthToMercury(age);
+}
 
-const lifeExpectancy = parseInt(prompt("How many Earth years do you want to live?"))
+const lifeExpectancy = parseInt(prompt("How many Earth years do you want to live?"));
 const age = parseInt(prompt("Enter your age on Earth:"));
-alert("Your age on Mercury is " + earthToMercury(age) + "! And your life expectancy is " + earthToMercury(lifeExpectancy) + " years.");
-alert("Your age on Venus is " + earthToVenus(age) + "! And your life expectancy is " + earthToVenus(lifeExpectancy) + " years.");
-alert("Your age on Mars is: " + earthToMars(age) + "! And your life expectancy is " + earthToMars(lifeExpectancy) + " years.");
-alert("Your age on Jupiter is: " + earthToJupiter(age) + "! And your life expectancy is " + earthToJupiter(lifeExpectancy) + " years.");
+ alert("Your age on Mercury is " + earthToMercury(years) + "! And your life expectancy on Mercury is " + earthToMercury(lifeExpectancy) + " years. "); //+ "Your age on Venus is " + earthToVenus(years) + "! And your life expectancy on Venus is " + earthToVenus(lifeExpectancy) + " years. " + "Your age on Mars is: " + earthToMars(years) + "! And your life expectancy on Mars is " + earthToMars(lifeExpectancy) + " years. " + "Your age on Jupiter is: " + earthToJupiter(years) + "! And your life expectancy on Jupiter is " + earthToJupiter(lifeExpectancy) + " years.");
+
+alert("You have " + lifeLeftMercury(years) + " years left to live on this planet");
 
 
   

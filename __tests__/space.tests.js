@@ -46,3 +46,8 @@ test('Should tell user their life left on planet and on earth', () => {
   let lifeExpectancy = {};
   year - lifeExpectancy;
 });
+
+test('Should tell user how may years over their expected life they are', () => {
+  let year = {};
+  lifeExpectancy - year;
+})

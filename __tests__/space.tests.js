@@ -1,5 +1,5 @@
 
-import { earthToMercury, earthToVenus, earthToMars, earthToJupiter, lifeLeftMercury  } from './../src/js/space.js';
+import { EarthToMercury, EarthToVenus, EarthToMars, EarthToJupiter, LifeLeftMercury, YearsOverExpected  } from './../src/js/space.js';
 
 test('Should correctly determine the length of one mercury year', () => {
   let oneMercuryYear = 4.15;

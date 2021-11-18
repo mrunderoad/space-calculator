@@ -36,4 +36,8 @@ describe('SpaceCalculator', () => {
     expect(spaceCalculator.lifeLeftMercury(80,30)).toEqual(208.33333333333337);
   });
 
+  test('Should tell user how many venus years they have left to live', () => {
+    expect(spaceCalculator.lifeLeftVenus(80,30)).toEqual(80.64516129032258);
+  });
+
 });

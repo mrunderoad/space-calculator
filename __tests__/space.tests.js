@@ -32,16 +32,8 @@ describe('SpaceCalculator', () => {
     expect(spaceCalculator.lifeLeftEarth(80,30)).toEqual(50);
   });
 
-  // test('Should tell user their life left on planet and on earth', () => {
-  //   let year = {};
-  //   let lifeExpectancy = {};
-  //   year - lifeExpectancy;
-  // });
-
-  // test('Should tell user how may years over their expected life they are', () => {
-  //   let year = {};
-  //   let lifeExpectancy = {};
-  //   lifeExpectancy - year;
-  // });
+  test('Should tell user how many mercury years they have left to live', () => {
+    expect(spaceCalculator.lifeLeftMercury(80,30)).toEqual(208.33333333333337);
+  });
 
 });

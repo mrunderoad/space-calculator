@@ -12,13 +12,13 @@ describe('SpaceCalculator', () => {
     expect(spaceCalculator.lifeExpectancy).toEqual(80);
   });
 
-   test('Should correctly convert earth years into mercury years', () => {
-     expect(spaceCalculator.earthToMercury(1)).toEqual(4.166666666666667)
-   });
+    test('Should correctly convert earth years into mercury years', () => {
+      expect(spaceCalculator.earthToMercury(1)).toEqual(4.166666666666667)
+  });
 
-  // test('Should correctly determine the length of one venus year', () => {
-  //   let oneVenusYear = 1.61;
-  // });
+    test('Should correctly convert earth years into venus years', () => {
+      expect(spaceCalculator.earthToVenus(1)).toEqual(1.6129032258064517)
+  });
 
   // test('Should correctly determine the length of one Mars year', () => {
   //   let oneMarsYear = 1.88;

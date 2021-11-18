@@ -13,20 +13,20 @@ describe('SpaceCalculator', () => {
   });
 
     test('Should correctly convert earth years into mercury years', () => {
-      expect(spaceCalculator.earthToMercury(1)).toEqual(4.166666666666667)
+      expect(spaceCalculator.earthToMercury(1)).toEqual(4.166666666666667);
   });
 
     test('Should correctly convert earth years into venus years', () => {
-      expect(spaceCalculator.earthToVenus(1)).toEqual(1.6129032258064517)
+      expect(spaceCalculator.earthToVenus(1)).toEqual(1.6129032258064517);
   });
 
     test('Should correctly convert earth years to mars years', () => {
-      expect(spaceCalculator.earthToMars(1)).toEqual(0.5319148936170213)
+      expect(spaceCalculator.earthToMars(1)).toEqual(0.5319148936170213);
   });
 
-  // test('Should correctly determine the length of one Jupiter year', () => {
-  //   let oneJupiterYear = .0084;
-  // });
+    test('Should correctly convert earth years into Jupiter years', () => {
+      expect(spaceCalculator.earthToJupiter(1)).toEqual(119.04761904761905);
+  });
 
   // test('Should convert earth age to mercury age', () => {
   //   let mercuryAge = 4.16;

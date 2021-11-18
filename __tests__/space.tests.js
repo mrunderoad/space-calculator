@@ -21,7 +21,7 @@ describe('SpaceCalculator', () => {
   });
 
     test('Should correctly convert earth years to mars years', () => {
-      expect(spaceCalculator.earthToMars(1)).toEqual()
+      expect(spaceCalculator.earthToMars(1)).toEqual(0.5319148936170213)
   });
 
   // test('Should correctly determine the length of one Jupiter year', () => {

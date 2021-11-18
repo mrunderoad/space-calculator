@@ -40,4 +40,8 @@ describe('SpaceCalculator', () => {
     expect(spaceCalculator.lifeLeftVenus(80,30)).toEqual(80.64516129032258);
   });
 
+  test('Should tell user how many mars years they have left to live', () => {
+    expect(spaceCalculator.lifeLeftMars(80,30)).toEqual(26.595744680851062)
+  })
+
 });

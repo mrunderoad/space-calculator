@@ -41,7 +41,11 @@ describe('SpaceCalculator', () => {
   });
 
   test('Should tell user how many mars years they have left to live', () => {
-    expect(spaceCalculator.lifeLeftMars(80,30)).toEqual(26.595744680851062)
-  })
+    expect(spaceCalculator.lifeLeftMars(80,30)).toEqual(26.595744680851062);
+  });
+
+  test('Should tell user how many Jupiter years they have left to live', () => {
+    expect(spaceCalculator.lifeLeftJupiter(80,30)).toEqual(5952.380952380953);
+  });
 
 });

@@ -48,4 +48,8 @@ describe('SpaceCalculator', () => {
     expect(spaceCalculator.lifeLeftJupiter(80,30)).toEqual(5952.380952380953);
   });
 
+  test('Should tell user if they have outlived their life expectancy and tell how many years over', () => {
+    expect(spaceCalculator.yearsOverExpected(30,80)).toEqual(-50)
+  })
+
 });
